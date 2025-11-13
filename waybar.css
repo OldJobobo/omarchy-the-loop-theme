@@ -1,0 +1,69 @@
+@define-color foreground #cbcbcb;
+@define-color background #252440;
+
+
+/*********** Custom Styling ****************/
+
+* {
+  background-color: @background;
+  color: @foreground;
+  font-family: JetBrainsMono Nerd Font Propo;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#waybar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#workspaces button.active {
+    color: #C93F16;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#workspaces button.active label {
+    color: #C93F16; /* More specific selector for text */
+    font-weight: bold;
+}
+
+#workspaces button.urgent {
+    color: #C93F16;
+    background-color: rgba(0,0,0,0.0);
+}
+
+#workspaces button:hover {
+    color: #6874bb;
+    background-color: rgba(104, 116, 187, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Make icon-only modules larger */
+#cpu,
+#battery,
+#network,
+#bluetooth,
+#custom-expand-icon {
+  font-size: 16px;
+}
+
+#pulseaudio {
+  font-size: 18px;
+}
+
+/* Module hover effects */
+#cpu:hover,
+#battery:hover,
+#network:hover,
+#bluetooth:hover,
+#pulseaudio:hover,
+#custom-weather:hover,
+#tray:hover {
+  color: #6874bb;
+  transition: color 0.3s ease;
+}
+
+/* Smooth transitions for all modules */
+#cpu, #battery, #network, #bluetooth, #pulseaudio, #custom-weather {
+  transition: all 0.3s ease;
+}
