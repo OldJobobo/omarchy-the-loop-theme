@@ -10,6 +10,8 @@ window {
     background-color: transparent;
     color: @text;
     border: none;
+    padding: 0;
+    box-shadow: none;
 }
 
 .box-wrapper {
