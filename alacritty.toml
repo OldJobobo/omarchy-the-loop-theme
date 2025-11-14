@@ -1,17 +1,17 @@
 [colors.primary]
-background = "#171624"
+background = "#1a2238"
 foreground = "#cbcbcb"
 
 [colors.cursor]
-text = "#171624"
+text = "#1a2238"
 cursor = "#cbcbcb"
 
 [colors.vi_mode_cursor]
-text = "#171624"
+text = "#1a2238"
 cursor = "#cbcbcb"
 
 [colors.search.matches]
-foreground = "#171624"
+foreground = "#1a2238"
 background = "#cbcbcb"
 
 [colors.search.focused_match]
@@ -31,7 +31,7 @@ text = "CellBackground"
 background = "CellForeground"
 
 [colors.normal]
-black = "#171624"
+black = "#1a2238"
 red = "#BD8767"
 green = "#184c55"
 yellow = "#b9a246"
