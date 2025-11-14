@@ -32,7 +32,7 @@
 @define-color theme_base_color @background;
 @define-color theme_text_color @foreground;
 @define-color theme_selected_bg_color @color4;
-@define-color theme_selected_fg_color @background;
+@define-color theme_selected_fg_color @foreground;
 @define-color insensitive_bg_color alpha(@background, 0.5);
 @define-color insensitive_fg_color alpha(@foreground, 0.5);
 @define-color insensitive_base_color @background;
@@ -187,4 +187,3 @@
 * {
     border-radius: 0;
 }
-
