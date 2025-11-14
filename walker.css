@@ -1,10 +1,11 @@
 @define-color selected-text #6874bb;
 @define-color text #cbcbcb;
-@define-color base #252440;
-@define-color border #FFD700;
+@define-color base #1a2238;
+@define-color surface #46538f;
+@define-color border #F4CC5D;
 @define-color foreground #cbcbcb;
-@define-color background #252440;
-@define-color accent #FFD700;
+@define-color background #1a2238;
+@define-color accent #F4CC5D;
 
 window {
     background-color: transparent;
@@ -22,16 +23,20 @@ window {
 }
 
 .search-container {
-    background-color: alpha(@base, 0.82);
-    border: 1px solid alpha(@border, 0.6);
+    background: transparent;
+    border: none;
     border-radius: 12px;
     padding: 12px 16px;
 }
 
 #entry entry,
 .input {
-    background: transparent;
+    background-color: alpha(@surface, 0.98);
     color: @text;
+    border-radius: 12px;
+    padding: 12px 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+    border: none;
 }
 
 #entry {
