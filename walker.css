@@ -1,12 +1,12 @@
-@define-color selected-text #6874bb;
-@define-color text #cbcbcb;
+@define-color selected-text #d4be68;
+@define-color text #afb6c5;
 @define-color base #1a2238;
-@define-color surface #46538f;
-@define-color border #F4CC5D;
-@define-color foreground #cbcbcb;
+@define-color surface #80889c;
+@define-color border #d4be68;
+@define-color foreground #1a2238;
 @define-color background #1a2238;
-@define-color accent #F4CC5D;
-@define-color input #44475A;
+@define-color accent #d4be68;
+@define-color input #182133;
 
 window {
     background-color: transparent;

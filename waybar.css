@@ -1,5 +1,5 @@
-@define-color foreground #cbcbcb;
-@define-color background #252440;
+@define-color foreground #afb6c5;
+@define-color background #1a2238;
 
 
 /*********** Custom Styling ****************/
@@ -18,23 +18,23 @@
 }
 
 #workspaces button.active {
-    color: #C93F16;
+    color: #d4be68;
     background-color: rgba(0,0,0,0.1);
 }
 
 #workspaces button.active label {
-    color: #C93F16; /* More specific selector for text */
+    color: #d4be68; /* More specific selector for text */
     font-weight: bold;
 }
 
 #workspaces button.urgent {
-    color: #C93F16;
+    color: #cf9276;
     background-color: rgba(0,0,0,0.0);
 }
 
 #workspaces button:hover {
-    color: #6874bb;
-    background-color: rgba(104, 116, 187, 0.1);
+    color: #d4be68;
+    background-color: rgba(212, 190, 104, 0.14);
     transition: all 0.3s ease;
 }
 
@@ -59,7 +59,7 @@
 #pulseaudio:hover,
 #custom-weather:hover,
 #tray:hover {
-  color: #6874bb;
+  color: #d4be68;
   transition: color 0.3s ease;
 }
 

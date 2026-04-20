@@ -7,32 +7,32 @@
 
 /* Dynamic Color Palette */
 @define-color background #1a2238;
-@define-color foreground #cbcbcb;
+@define-color foreground #afb6c5;
 
-@define-color color0 #1a2238;
-@define-color color1 #BD8767;
-@define-color color2 #184c55;
-@define-color color3 #b9a246;
-@define-color color4 #6874bb;
-@define-color color5 #434773;
-@define-color color6 #649FB6;
-@define-color color7 #909090;
-@define-color color8 #48465a;
-@define-color color9 #dbb9a5;
-@define-color color10 #238193;
-@define-color color11 #baaf80;
-@define-color color12 #e6e7f4;
-@define-color color13 #a1a6cb;
-@define-color color14 #a0c7d6;
-@define-color color15 #cbcbcb;
+@define-color color0 #182133;
+@define-color color1 #cf9276;
+@define-color color2 #5f99a4;
+@define-color color3 #d4be68;
+@define-color color4 #7f8fe0;
+@define-color color5 #9586cf;
+@define-color color6 #77b7c8;
+@define-color color7 #afb6c5;
+@define-color color8 #80889c;
+@define-color color9 #e2b099;
+@define-color color10 #7db9c4;
+@define-color color11 #e4d294;
+@define-color color12 #a8b4f2;
+@define-color color13 #b4a7e4;
+@define-color color14 #9dd1df;
+@define-color color15 #dde2eb;
 
 /* Base GTK theme variables */
 @define-color theme_bg_color @background;
 @define-color theme_fg_color @foreground;
 @define-color theme_base_color @background;
 @define-color theme_text_color @foreground;
-@define-color theme_selected_bg_color @color4;
-@define-color theme_selected_fg_color @foreground;
+@define-color theme_selected_bg_color @color3;
+@define-color theme_selected_fg_color @background;
 @define-color insensitive_bg_color alpha(@background, 0.5);
 @define-color insensitive_fg_color alpha(@foreground, 0.5);
 @define-color insensitive_base_color @background;
@@ -40,13 +40,13 @@
 @define-color theme_unfocused_fg_color @foreground;
 @define-color theme_unfocused_base_color @background;
 @define-color theme_unfocused_text_color @foreground;
-@define-color theme_unfocused_selected_bg_color @color4;
+@define-color theme_unfocused_selected_bg_color @color3;
 @define-color theme_unfocused_selected_fg_color @background;
 
 /* Adwaita Color Overrides */
-@define-color accent_bg_color @color4;
-@define-color accent_fg_color @color15;
-@define-color accent_color @color6;
+@define-color accent_bg_color @color3;
+@define-color accent_fg_color @background;
+@define-color accent_color @color3;
 
 @define-color window_bg_color @background;
 @define-color window_fg_color @foreground;
@@ -82,16 +82,16 @@
 @define-color dialog_fg_color @foreground;
 
 @define-color destructive_bg_color @color1;
-@define-color destructive_fg_color @color15;
+@define-color destructive_fg_color @background;
 
-@define-color success_bg_color @color2;
-@define-color success_fg_color @color15;
+@define-color success_bg_color @color10;
+@define-color success_fg_color @background;
 
 @define-color warning_bg_color @color3;
-@define-color warning_fg_color @color15;
+@define-color warning_fg_color @background;
 
 @define-color error_bg_color @color1;
-@define-color error_fg_color @color15;
+@define-color error_fg_color @background;
 
 @define-color borders alpha(@foreground, 0.15);
 
@@ -133,8 +133,8 @@
 /* Dropdown/ComboBox colors */
 @define-color dropdown_bg_color @background;
 @define-color dropdown_fg_color @foreground;
-@define-color dropdown_hover_bg_color alpha(@color4, 0.3);
-@define-color dropdown_selected_bg_color @color4;
+@define-color dropdown_hover_bg_color alpha(@color3, 0.3);
+@define-color dropdown_selected_bg_color @color3;
 @define-color dropdown_selected_fg_color @background;
 
 /* Pathbar/Breadcrumb colors */
@@ -159,11 +159,11 @@
 @define-color treeview_fg_color @foreground;
 
 /* Link colors */
-@define-color link_color @color4;
+@define-color link_color @color3;
 @define-color link_visited_color @color5;
 
 /* Selection colors (for text selection, etc) */
-@define-color selection_bg_color @color4;
+@define-color selection_bg_color @color3;
 @define-color selection_fg_color @background;
 
 /* Content view (file browser grid/list) */
