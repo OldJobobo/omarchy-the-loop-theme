@@ -6,6 +6,7 @@
 @define-color foreground #cbcbcb;
 @define-color background #1a2238;
 @define-color accent #F4CC5D;
+@define-color input #44475A;
 
 window {
     background-color: transparent;
@@ -22,16 +23,16 @@ window {
     padding: 18px 22px;
 }
 
-.search-container {
+ .search-container {
     background: transparent;
     border: none;
     border-radius: 12px;
     padding: 12px 16px;
-}
+} 
 
 #entry entry,
 .input {
-    background-color: alpha(@surface, 0.98);
+    background-color: @input;
     color: @text;
     border-radius: 12px;
     padding: 12px 16px;
