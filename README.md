@@ -25,13 +25,13 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-the-loop-theme
 
 <table>
   <tr>
-    <td><img src="backgrounds/wp8378310-tales-from-the-loop-wallpapers_LE_upscale_prime_tone_enhance_30_color_enhance_30.jpg" width="220" alt="The Loop wallpaper 1"></td>
-    <td><img src="backgrounds/wp8377736-tales-from-the-loop-wallpapers_LE_upscale_digiart_tone_enhance_30_color_enhance_30.jpg" width="220" alt="The Loop wallpaper 2"></td>
-    <td><img src="backgrounds/wp8377881-tales-from-the-loop-wallpapers_LE_upscale_digiart_tone_enhance_30_color_enhance_30.jpg" width="220" alt="The Loop wallpaper 3"></td>
+    <td><img src="backgrounds/01-fogbound-megatowers.jpg" width="220" alt="The Loop wallpaper 1"></td>
+    <td><img src="backgrounds/02-snowfield-outpost.jpg" width="220" alt="The Loop wallpaper 2"></td>
+    <td><img src="backgrounds/03-frozen-bus-route.jpg" width="220" alt="The Loop wallpaper 3"></td>
   </tr>
   <tr>
-    <td><img src="backgrounds/wp8378307-tales-from-the-loop-wallpapers_LE_upscale_digiart_tone_enhance_30_color_enhance_30.jpg" width="220" alt="The Loop wallpaper 4"></td>
-    <td><img src="backgrounds/wp8378378-tales-from-the-loop-wallpapers_LE_upscale_digiart_tone_enhance_30_color_enhance_30.jpg" width="220" alt="The Loop wallpaper 5"></td>
+    <td><img src="backgrounds/04-roadside-transport.jpg" width="220" alt="The Loop wallpaper 4"></td>
+    <td><img src="backgrounds/05-walker-in-the-mist.jpg" width="220" alt="The Loop wallpaper 5"></td>
     <td></td>
   </tr>
 </table>
